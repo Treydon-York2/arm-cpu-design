@@ -1,0 +1,11 @@
+1) [4 p] Write any assembly-integrated C program as you wish that satisfies the following conditions:
+
+* The program should involve at least one array and do some array operations of your choice.
+* Array operations should be performed through the Assembly portion of the code, at least in part.
+* There should be at least two separate asm volatile ( ) functions with different ARM Assembly code blocks in them.
+* Assembly portions of the code should, in total, contain at least 20 different instructions.
+* Assembly portions of the code should, in total, contain at least 50 instructions.
+* An instruction cannot be repeated more than 5 times. If you need to, consider using a variation of it or find another workaround. 
+* The program should read and write data to and from the RAM for a specific purpose (e.g., storing an array).
+* Variables of any kind are defined in the C portion of the code.
+* The last section of the C code must print a few variables to verify the results.
