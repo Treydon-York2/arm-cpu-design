@@ -1,12 +1,13 @@
 ARM CPU Design Project
 
 OVERVIEW:
-This project involved designing a simplified ARM-based CPU architecture from the ground up. The objective was to develop detailed schematics for all major subsystems and validate instruction execution through ARM assembly programs.
+This project involved the schematic-level design and validation of a simplified ARM-based CPU using a multi-cycle execution architecture. The system was implemented through structured datapath and control logic design and validated using ARM assembly programs executed in Segger Embedded Studio.
 
-MOTIVATION:
-To deepen my understanding of computer architecture beyond theoretical coursework by implementing datapath and control logic at the schematic level and verifying hardware-compatible assembly execution.
+The objective was to translate computer architecture theory into a functional hardware model capable of executing arithmetic, logical, memory, and branch instructions across staged execution cycles.
 
 SYSTEM ARCHITECTURE:
+The CPU follows a multi-cycle architecture, where instructions are executed across multiple clock phases rather than a single-cycle implementation. Functional units are reused across cycles to reduce hardware redundancy, with execution sequencing governed by a centralized control unit.
+
 The CPU design included -
 * Arithmetic Logic Unit (ALU)
 * Control Unit
