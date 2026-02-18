@@ -1,3 +1,7 @@
+Status: Completed Academic Hardware Architecture Project
+Environment: Segger Embedded Studio Simulation
+Architecture Model: ARM Cortex-A7, Multi-Cycle (Non-Popelined)
+
 ARM CPU Design Project
 
 OVERVIEW:
